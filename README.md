@@ -75,6 +75,10 @@ As visualizações fornecidas irão permitir com que a empresa possa avaliar as 
 
 # App:
 
+O aplicativo a seguir, foi criado para uma melhor visualização dos dados.
+
+https://lucas-penalva-streamlit-cloud-app-project-jgkgju.streamlitapp.com/
+
 
 
 
