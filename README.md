@@ -3,7 +3,7 @@
 ![house_rocket](hr_art.jpg)
 
 # Problema de Negócio:
-House Rocket é uma empresa fictícia, que compra e vende imóveis em Seattle. O principal objetivo da empresa é comprar boas imóveis com bons preços e depois vendê-las por preços mais altos. A empresa não possui um método para decidir quais imóveis devem ser compradas, e não possui um sistema de precificação para definir os preços de venda das imóveis.
+House Rocket é uma empresa fictícia, que compra e vende imóveis em Seattle. O principal objetivo da empresa é comprar bons imóveis, com bons preços e depois vendê-los por preços mais altos. A empresa não possui um método para decidir quais imóveis devem ser comprados, e não possui um sistema de precificação para definir os preços de venda dos imóveis.
 
 Este projeto buscou responder as seguintes questões:
 
@@ -23,7 +23,7 @@ Etapa 01. Coleta de dados: Os dados foram coletados na plataforma Kaggle, como a
 
 Etapa 02. Estatísticas de dados: os dados estatísticos foram calculados para identificar outliers e erros.
 
-Etapa 03. Limpeza de dados: os dados que foram considerados erros de escrita foram removidos.
+Etapa 03. Limpeza de dados: os dados que foram considerados erros de digitação foram removidos.
 
 Etapa 04. Insights: Os atributos dos dados foram analisados a fim de identificar informações relevantes para o negócio.
 
@@ -31,27 +31,47 @@ Etapa 05. Identificar bons imóveis para compra: imóveis em excelentes condiç�
 
 Etapa 06. Precificação: Foi criado um app de visualização, dentro das condições estipuladas pelo time de negócio, onde é possível filtrar os imóveis por região (zipcode) e condições do imóvel (condition).
 
+***Condições de venda:***
+
+***1. Se o preço de compra for maior que a mediana da região + sazonalidade.***
+
+***O preço de venda será igual ao preço da compra + 10%***
+
+***2. Se o preço de compra for menor que a mediana da região + sazonalidade.***
+
+***O preço de venda será igual ao preço da compra + 30%***
+
 Etapa 07. Resultados: Através do aplicativo desenvolvido, é mostrado os imóveis com possíveis indicadores de compra, venda e lucro.
 
 # Insights:
 
 Hipótese 1 - Imóveis que possuem vista para água, são 30% mais caros, em média.
 
+![waterf_hr](https://user-images.githubusercontent.com/107321862/191380787-6fab6ddd-89aa-403f-a9dc-f05318703064.JPG)
+
 A hipótese é verdadeira. Imóveis que possuem vista para água são, em média, 212.64% mais caros.
 
 Hipótese 2 - Imóveis com data de construção menor que 1955, são 50% mais baratos, em média.
+
+![1955_hr](https://user-images.githubusercontent.com/107321862/191381120-79675ed5-7289-4ad8-9cb9-3b952793544d.JPG)
 
 A hipótese é falsa. Imóveis construídos antes do ano de 1955 são, em média, 0.79% mais baratos que os demais.
 
 Hipótese 3 - Imóveis sem porão possuem área total 40% maior que os imóveis com porão.
 
+![porao_hr](https://user-images.githubusercontent.com/107321862/191381206-d7e70a0d-c562-4faa-acaf-f675afa135c1.JPG)
+
 A hipótese é falsa. Imóveis sem porão são, em média, 22.56% maiores que os demais.
 
 Hipótese 4 - O crescimento do preço dos imóveis YoY ( Year over Year ) é de 10%.
 
+![yoy_hr](https://user-images.githubusercontent.com/107321862/191381221-fe3b8c06-af2b-40cb-b685-06753f3e7c8c.JPG)
+
 A hipótese é falsa. O crescimento do preço dos imóveis entre os anos, é em média, 0.52% maior.
 
 Hipótese 5 - Imóveis com nível elevado de design, em média, são mais caros.
+
+![design_hr](https://user-images.githubusercontent.com/107321862/191381415-498477d7-8cd3-4aa0-ba8b-e9aec4e18440.JPG)
 
 A hipótese é verdadeira. Imóveis com nível elevado de design são 227.21% mais caros que os demais, em média.
 
