@@ -1,9 +1,9 @@
 # House Rocket
   
-![house_rocket](https://user-images.githubusercontent.com/107321862/191302236-6495e1e2-fa0f-4a58-923d-d81cf7931f3e.jpg)
+![house_rocket](hr_art.jpg)
 
 # Problema de Negócio:
-House Rocket é uma empresa fictícia, que compra e vende casas em Seattle. O principal objetivo da empresa é comprar boas casas com bons preços e depois vendê-las por preços mais altos. A empresa não possui um método para decidir quais casas devem ser compradas, e não possui um sistema de precificação para definir os preços de venda das casas.
+House Rocket é uma empresa fictícia, que compra e vende imóveis em Seattle. O principal objetivo da empresa é comprar boas imóveis com bons preços e depois vendê-las por preços mais altos. A empresa não possui um método para decidir quais imóveis devem ser compradas, e não possui um sistema de precificação para definir os preços de venda das imóveis.
 
 Este projeto buscou responder as seguintes questões:
 
@@ -13,13 +13,13 @@ II) Uma vez o imóvel comprado, qual o melhor momento para vendê-lo e por qual 
 
 # Premissas de Negócio:
 
-* A empresa não definiu um número máximo de casas que quer comprar.
+* A empresa não definiu um número máximo de imóveis que quer comprar.
 
-* Além de comprar e vender casas, a empresa também considera comprar casas que precisam ser reformadas.
+* Além de comprar e vender imóveis, a empresa também considera comprar imóveis que precisam ser reformadas.
 
 # Estratégia de Negócio:
 
-Etapa 01. Coleta de dados: Os dados foram coletados na plataforma Kaggle, como arquivo csv e baixados. O arquivo contém dados de casas em Seattle. A análise dos dados foi feita usando Python.
+Etapa 01. Coleta de dados: Os dados foram coletados na plataforma Kaggle, como arquivo csv e baixados. O arquivo contém dados de imóveis em Seattle. A análise dos dados foi feita usando Python.
 
 Etapa 02. Estatísticas de dados: os dados estatísticos foram calculados para identificar outliers e erros.
 
