@@ -15,7 +15,7 @@ II) Uma vez o imóvel comprado, qual o melhor momento para vendê-lo e por qual 
 
 * A empresa não definiu um número máximo de imóveis que quer comprar.
 
-* Além de comprar e vender imóveis, a empresa também considera comprar imóveis que precisam ser reformadas.
+* Além de comprar e vender imóveis, a empresa também considera comprar imóveis que precisam ser reformados.
 
 # Estratégia de Negócio:
 
